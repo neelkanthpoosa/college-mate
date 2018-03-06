@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Profile</title>
+{% endblock %}
+
+{% block body %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/style.css' %}"><br>
+<div class="container">
+<p>
+
+	Username:{{ user }} <br>
+	Full Name:{{ user.first_name }}
+	{{ user.last_name }}<br>
+	{{ user.email }}
+	<p>Description:{{ user.userprofile.desciption }}</p>
+	<p>Phone:{{ user.userprofile.phone }}</p>
+	{% if user.userprofile.image %}
+	<img src="{{ user.userprofile.image.url }}" width="240">
+{% endif %}</p>
+</div>
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+
+
+
+
+
+{% block body %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/style.css' %}"><br>
+
+<div class="container">
+<h1>FINDER WORKING</h1>
+<form method="post" enctype="multipart/form-data" >
+{% csrf_token %}
+{{form.as_p}}
+<br>
+<button type="submit" class="btn btn-primary btn-sm">SUMBIT</button>
+<br>
+<br>
+<br>
+<h2>{{ text }}</h2>
+{% for post in posts %}
+<h2>{{ post.post }}</h2>
+  {% if post.image %}
+<img src="{{ post.image.url }}" alt="..." width="240">
+{% endif %}
+<p>Posted by {{ post.user.get_full_name }} on {{ post.created }}</p>
+{% endfor %}
+</form>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% block head %}
+
+{% endblock %}

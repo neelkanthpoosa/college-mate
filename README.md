@@ -1,5 +1,4 @@
 # college-mate (CBIT Market Place)
-
 Looking for a way to solve students' problems, I decided to implement a College Market Place (CBIT Market Place) to answer the needs of students.
 
   - Helps Students with Equipment Rentals / Sharing other essentials (From the Finder feature). 

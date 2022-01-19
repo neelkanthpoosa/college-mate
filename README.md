@@ -34,7 +34,7 @@ Looking for a way to solve students' problems, I decided to implement a College 
 
 
 ## Personalized Profile:
-<img width="1440" alt="Screen Shot 2018-03-31 at 1 32 55 AM" src="https://user-images.githubusercontent.com/35606645/150219907-b94dc3a8-e359-460d-9164-8a7076640769.png">
+<img width="1440" alt="Screen Shot 2018-03-31 at 1 32 55 AM" src="https://user-images.githubusercontent.com/35606645/150221412-9315a022-8adb-458d-b1d7-75714bd54b2b.png">
 <img width="1440" alt="Screen Shot 2018-03-31 at 1 33 06 AM" src="https://user-images.githubusercontent.com/35606645/150217508-efb29549-593e-47dc-aa78-b8cc69acdd79.png">
 <img width="1440" alt="Screen Shot 2018-03-31 at 1 33 13 AM" src="https://user-images.githubusercontent.com/35606645/150217509-858eabf1-4723-4a00-88c8-7f94f8ff8dcc.png">
 
